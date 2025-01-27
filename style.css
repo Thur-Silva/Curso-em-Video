@@ -381,3 +381,220 @@ body {
 }
 
 
+@media screen and (max-width:960px ){
+
+    /* IMAGENS NO CELULAR */
+    
+    
+        body{
+        
+        
+            & .topo.active {
+    
+                & img {
+                    height: 45%;
+                    margin-top: 20%;
+                }
+        
+                & h2 {
+                    color: #ffffff;
+                    margin-top: 55%;
+                    position: absolute;
+                    margin-left: 37%;
+                    font-size: 1.5em;
+                    z-index: 100;
+                    opacity: 1;
+                }
+        
+                & a {
+                    color: #ffffff;
+                    margin-top: 49%;
+                    position: absolute;
+                    margin-left: 44%;
+                    font-size: 0.6em;
+                    z-index: 100;
+                    padding-bottom: 9px;
+                    border-bottom: 1px solid #fff;
+                    border-radius: 10%;
+                    opacity: 1;
+                }
+        
+            }
+        
+            & .topo.last {
+        
+                & img {
+                    height: 45%;
+                    margin-top: 20%;
+                }
+        
+            }
+        }
+    
+        & .corpo {
+            flex-direction: column;
+            & .tema{
+                opacity: 1;
+                margin-top: 60%;
+                transform: translateX(0);
+                font-size: 2.3em;
+                width: 350px;
+                margin-left: 3%;
+            }
+            & .item{
+                margin: 0;
+                margin-left: 10%;
+                margin-top: 120%;
+                & img{
+                    width: 300px;
+                    height: 200px;
+                    margin: -35% 0;
+                }
+                & img:hover {
+                    transition: 0.3s;
+                    cursor: pointer;
+                    height: 400px;
+        
+                }
+    
+                & .descricao {
+                    position: absolute;
+                    transform: translateX(0);
+                    width: 300px;
+                    font-size: 2.1em;
+                    margin-top: 40%;
+                    margin-left: 35%;
+                }
+        
+            }
+
+            & .scrollRight{
+                margin-top: 40%;
+            }
+        }
+        
+        #classic {
+            margin-left: -20%;
+        }
+        
+        #camisa {
+            margin-left: -20%;
+        }
+    
+        #soft {
+            margin-left: 24%;
+        }
+
+        #botaoOFF{    
+            width: 40px;
+            height: 40px;
+        }
+            
+    /* (FIM) IMAGENS NO CELULAR */
+    
+    
+    /*COMEÇO DO HEADER (LOGO E MENU)*/
+    
+    header {
+        & h1 {
+    
+            width: 270px;
+            display: block;
+            color: #111111;
+            font-size: 1.5em;
+            letter-spacing: 0.2em;
+            z-index: 10;
+            position: absolute;
+            margin-top: -20px;
+            margin-left: 23%;
+            font-weight: bold;
+    
+    
+        }
+    
+        & h1:hover {
+            cursor: default;
+        }
+    
+        & p {
+            font-weight: 100;
+            font-size: 0.6em;
+            margin-top: -27px;
+            position: absolute;
+            transform: translateX(30px);
+        }
+    
+        & .menu {
+            position: absolute;
+            margin-top: -10px;
+    
+            & p{
+                border-bottom:1px solid rgba(0, 0, 0, 0) ;
+                transition: 0.5s;
+            }
+        }
+    
+        & .menu:hover {
+            cursor: pointer;
+    
+            & p{
+                border-bottom:1px solid black ;
+                transition: 0.5s;
+            }
+        }
+    
+        & .cart {
+            position: absolute;
+            margin-top: -10px;
+            transform: translateX(1200px);
+            
+        }
+    
+        & .cart:hover {
+            cursor: pointer;
+        }
+    
+        & .search {
+            position: absolute;
+            margin-top: -10px;
+            transform: translateX(100px);
+    
+            & p{
+                border-bottom:1px solid rgba(0, 0, 0, 0) ;
+                transition: 0.5s;
+            }
+        }
+    
+        & .search:hover {
+            cursor: pointer;
+            & p{
+                border-bottom:1px solid black ;
+                transition: 0.5s;
+            }
+        }
+    
+        & .heart {
+            position: absolute;
+            margin-top: -10px;
+            transform: translateX(1150px);
+        }
+    
+        & .heart:hover {
+            cursor: pointer;
+        }
+    
+        & .user {
+            position: absolute;
+            margin-top: -10px;
+            transform: translateX(1100px);
+    
+        }
+    
+        & .user:hover {
+            cursor: pointer;
+        }
+    
+    
+    }
+    
+    }
